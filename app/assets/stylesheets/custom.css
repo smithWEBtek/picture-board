@@ -1,0 +1,95 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* whole page wrapper, used on whole site */
+.layout-wrapper {
+  background-color: ivory;
+  border: 1px solid rgb(180, 194, 159);
+  border-radius: 0.5rem;
+  height: 75%;
+  margin: 1rem;
+}
+
+/* main site header, title, tagline, navigation, status, login, account */
+.main-header {
+  border: 1px solid rgb(18, 36, 18);
+  background-color: rgb(79, 99, 83);
+  padding: 0.5rem;
+}
+
+/* main site title or app name */
+.main-header__title {
+  color: white;
+  font-size: x-large;
+  padding-bottom: 0.5rem;
+}
+
+/* main site subtitle or tag line */
+.main-header__subtitle {
+  color: white;
+  font-size: medium;
+  padding-bottom: 0.5rem;
+}
+
+/*  */
+.main-nav {
+  border-bottom: 2px solid gray;
+  padding-bottom: 1rem;
+}
+
+.section {
+  border: 1px solid rgb(18, 36, 18);
+  background-color: ivory;
+  padding: 0.5rem;
+}
+
+.section__title {
+  font-size: medium;
+  color: rgb(6, 32, 17);
+}
+
+.section__content {
+  font-size: small;
+}
+
+.boards {
+  background-color: rgb(37, 58, 58);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  width: 80%;
+  align-items: stretch;
+  margin-top: 1rem;
+  margin: auto;
+
+  /* &__board {
+    border: 2px solid red;
+  } */
+}
+
+li {
+  color: rgb(69, 78, 78);
+}
+
+.img {
+  object-fit: cover;
+  object-position: center;
+  height: 50%;
+  width: 50%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+
+button {
+  font-family: inherit;
+}
